@@ -207,6 +207,16 @@ section{scroll-margin-top:80px}
 .off{background:var(--accent);color:var(--on-accent);font-weight:700;font-size:12px;padding:2px 8px;border-radius:999px;letter-spacing:.02em}
 .approx{margin-top:-10px;color:var(--muted);font-size:14px;font-variant-numeric:tabular-nums}
 .spec{margin:0;padding:8px 12px;border:1px solid var(--line);border-radius:10px;font-size:14px;color:var(--fg);font-variant-numeric:tabular-nums}
+.was-none{visibility:hidden}
+@media(max-width:900px){.was-none{display:none}}
+.svc-mini{display:flex;flex-wrap:wrap;align-items:center;gap:10px 24px;margin-top:16px;padding:16px 24px;border:1px solid var(--line);border-radius:12px;font-size:14px;color:var(--muted)}
+.svc-mini p{margin:0;flex:1 1 320px;min-width:0}
+.svc-mini b{color:var(--fg);font-weight:600}
+.svc-mini .mini-price{font-family:var(--display);color:var(--fg);font-size:16px;font-weight:600;font-variant-numeric:tabular-nums;white-space:nowrap}
+.svc-mini .mini-price s{color:var(--muted);font-weight:400;font-size:13px;margin-right:4px}
+.svc-mini .mini-price small{font-family:var(--body);font-size:12px;color:var(--muted);margin-left:2px;font-weight:400}
+.svc-mini a{color:var(--fg);text-decoration:none;border-bottom:1px solid var(--line);white-space:nowrap}
+.svc-mini a:hover{color:var(--accent);border-color:var(--accent)}
 .svc-foot{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px 32px;margin-top:20px;color:var(--muted);font-size:14px}
 
 /* process */
@@ -557,14 +567,15 @@ section .revs::-webkit-scrollbar{display:none}
     </div>
     <div class="svc">
       <article class="plan">
-        <div class="label">01 · Translation</div>
-        <h3><span class="zh">基础翻译</span><span class="ko">기본 번역</span></h3>
-        <div class="was"><s>¥400</s><span class="off">-25%</span></div>
-        <div class="price">¥300<small><span class="zh">起</span><span class="ko">부터</span></small></div>
+        <div class="label">01 · Short Page</div>
+        <h3><span class="zh">短详情页</span><span class="ko">숏 상세페이지</span></h3>
+        <div class="was was-none" aria-hidden="true">&nbsp;</div>
+        <div class="price">¥760<small><span class="zh">/件</span><span class="ko">/건</span></small></div>
+        <p class="spec"><span class="zh">报价基准：详情页长度 5,000px 以内</span><span class="ko">견적 기준: 상세페이지 길이 5,000px 이하</span></p>
         <ul>
-          <li><span class="zh">把现有详情页（中文或生硬的韩语）改成自然的韩语</span><span class="ko">기존 상세페이지(중국어·어색한 한국어)를 자연스러운 한국어로</span></li>
-          <li><span class="zh">保留原设计，只替换文字</span><span class="ko">기존 디자인은 유지하고 문구만 교체</span></li>
-          <li><span class="zh">适合想先在 Coupang（酷澎）/ Naver 快速上架的卖家</span><span class="ko">쿠팡·네이버에 빠르게 먼저 등록하려는 셀러에게 적합</span></li>
+          <li><span class="zh">适合配件、小商品等内容较少的产品</span><span class="ko">액세서리·소형 상품처럼 내용이 적은 제품에 적합</span></li>
+          <li><span class="zh">按韩国顾客的习惯重新设计并撰写文案</span><span class="ko">한국 고객 기준으로 디자인과 문구를 새로 작업</span></li>
+          <li><span class="zh">按件计费，单个产品也能做</span><span class="ko">건당 작업, 제품 하나도 진행 가능</span></li>
         </ul>
         <a class="btn btn-plan btn-sec" href="#contact"><span class="zh">咨询这个方案 →</span><span class="ko">이 플랜으로 상담 →</span></a>
       </article>
@@ -595,6 +606,12 @@ section .revs::-webkit-scrollbar{display:none}
         </ul>
         <a class="btn btn-plan btn-sec" href="#contact"><span class="zh">咨询这个方案 →</span><span class="ko">이 플랜으로 상담 →</span></a>
       </article>
+    </div>
+    <div class="svc-mini">
+      <span class="label">Add-on</span>
+      <p><span class="zh"><span class="w">只需要翻译？</span><b>基础翻译</b>：保留原设计，只把文字改成自然的韩语。</span><span class="ko">번역만 필요하다면? <b>기본 번역</b>: 기존 디자인은 그대로 두고 문구만 자연스러운 한국어로 바꿉니다.</span></p>
+      <span class="mini-price"><s>¥400</s> ¥300<small><span class="zh">起</span><span class="ko">부터</span></small></span>
+      <a href="#contact"><span class="zh">咨询 →</span><span class="ko">상담 →</span></a>
     </div>
     <div class="svc-foot">
       <span><span class="zh">以上价格单位为人民币（元）。</span><span class="ko">가격 단위는 위안화(CNY)입니다.</span></span>
