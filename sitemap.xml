@@ -1,9 +1,157 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://kloverstudio.me/</loc>
     <lastmod>2026-11-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://kloverstudio.me/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kloverstudio.me/ko/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kloverstudio.me/"/>
+  </url>
+  <url>
+    <loc>https://kloverstudio.me/ko/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://kloverstudio.me/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kloverstudio.me/ko/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kloverstudio.me/"/>
+  </url>
+  <url>
+    <loc>https://kloverstudio.me/work/gamesir</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://kloverstudio.me/work/gamesir"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kloverstudio.me/ko/work/gamesir"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kloverstudio.me/work/gamesir"/>
+  </url>
+  <url>
+    <loc>https://kloverstudio.me/ko/work/gamesir</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://kloverstudio.me/work/gamesir"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kloverstudio.me/ko/work/gamesir"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kloverstudio.me/work/gamesir"/>
+  </url>
+  <url>
+    <loc>https://kloverstudio.me/work/msa2</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://kloverstudio.me/work/msa2"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kloverstudio.me/ko/work/msa2"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kloverstudio.me/work/msa2"/>
+  </url>
+  <url>
+    <loc>https://kloverstudio.me/ko/work/msa2</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://kloverstudio.me/work/msa2"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kloverstudio.me/ko/work/msa2"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kloverstudio.me/work/msa2"/>
+  </url>
+  <url>
+    <loc>https://kloverstudio.me/work/viture</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://kloverstudio.me/work/viture"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kloverstudio.me/ko/work/viture"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kloverstudio.me/work/viture"/>
+  </url>
+  <url>
+    <loc>https://kloverstudio.me/ko/work/viture</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://kloverstudio.me/work/viture"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kloverstudio.me/ko/work/viture"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kloverstudio.me/work/viture"/>
+  </url>
+  <url>
+    <loc>https://kloverstudio.me/work/lamicall</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://kloverstudio.me/work/lamicall"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kloverstudio.me/ko/work/lamicall"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kloverstudio.me/work/lamicall"/>
+  </url>
+  <url>
+    <loc>https://kloverstudio.me/ko/work/lamicall</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://kloverstudio.me/work/lamicall"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kloverstudio.me/ko/work/lamicall"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kloverstudio.me/work/lamicall"/>
+  </url>
+  <url>
+    <loc>https://kloverstudio.me/work/macfilm</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://kloverstudio.me/work/macfilm"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kloverstudio.me/ko/work/macfilm"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kloverstudio.me/work/macfilm"/>
+  </url>
+  <url>
+    <loc>https://kloverstudio.me/ko/work/macfilm</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://kloverstudio.me/work/macfilm"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kloverstudio.me/ko/work/macfilm"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kloverstudio.me/work/macfilm"/>
+  </url>
+  <url>
+    <loc>https://kloverstudio.me/work/mattress</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://kloverstudio.me/work/mattress"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kloverstudio.me/ko/work/mattress"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kloverstudio.me/work/mattress"/>
+  </url>
+  <url>
+    <loc>https://kloverstudio.me/ko/work/mattress</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://kloverstudio.me/work/mattress"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kloverstudio.me/ko/work/mattress"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kloverstudio.me/work/mattress"/>
+  </url>
+  <url>
+    <loc>https://kloverstudio.me/work/vacuum3d</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://kloverstudio.me/work/vacuum3d"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kloverstudio.me/ko/work/vacuum3d"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kloverstudio.me/work/vacuum3d"/>
+  </url>
+  <url>
+    <loc>https://kloverstudio.me/ko/work/vacuum3d</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://kloverstudio.me/work/vacuum3d"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kloverstudio.me/ko/work/vacuum3d"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kloverstudio.me/work/vacuum3d"/>
+  </url>
+  <url>
+    <loc>https://kloverstudio.me/work/vacuumclear</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://kloverstudio.me/work/vacuumclear"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kloverstudio.me/ko/work/vacuumclear"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kloverstudio.me/work/vacuumclear"/>
+  </url>
+  <url>
+    <loc>https://kloverstudio.me/ko/work/vacuumclear</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://kloverstudio.me/work/vacuumclear"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kloverstudio.me/ko/work/vacuumclear"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kloverstudio.me/work/vacuumclear"/>
+  </url>
+  <url>
+    <loc>https://kloverstudio.me/work/stroller</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://kloverstudio.me/work/stroller"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kloverstudio.me/ko/work/stroller"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kloverstudio.me/work/stroller"/>
+  </url>
+  <url>
+    <loc>https://kloverstudio.me/ko/work/stroller</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://kloverstudio.me/work/stroller"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kloverstudio.me/ko/work/stroller"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kloverstudio.me/work/stroller"/>
+  </url>
+  <url>
+    <loc>https://kloverstudio.me/work/umbrella</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://kloverstudio.me/work/umbrella"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kloverstudio.me/ko/work/umbrella"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kloverstudio.me/work/umbrella"/>
+  </url>
+  <url>
+    <loc>https://kloverstudio.me/ko/work/umbrella</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://kloverstudio.me/work/umbrella"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kloverstudio.me/ko/work/umbrella"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kloverstudio.me/work/umbrella"/>
   </url>
 </urlset>
