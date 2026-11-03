@@ -380,6 +380,9 @@ section .revs::-webkit-scrollbar{display:none}
 
 @media(prefers-reduced-motion:reduce){.track,.reel-track{animation:none}html{scroll-behavior:auto}.card .ph img{transition:none}}
 
+/* footer labels: full-strength muted color for readable contrast */
+.biz dt{opacity:1}
+.biz dd{color:#b4bcb7}
 /* language switch as links (one URL per language) */
 .lang a{display:inline-block;padding:4px 12px;border-radius:999px;font-size:13px;color:var(--muted);text-decoration:none;line-height:1.6}
 .lang a:hover{color:var(--fg)}
