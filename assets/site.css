@@ -380,6 +380,9 @@ section .revs::-webkit-scrollbar{display:none}
 
 @media(prefers-reduced-motion:reduce){.track,.reel-track{animation:none}html{scroll-behavior:auto}.card .ph img{transition:none}}
 
+/* per-language font stacks: each page downloads only its own CJK webfont; stray characters of the other script use system fonts */
+html[data-lang="zh"]{--display:"Archivo","Noto Sans SC",system-ui,-apple-system,"PingFang SC","Microsoft YaHei","Apple SD Gothic Neo","Malgun Gothic",sans-serif;--body:"Noto Sans SC",-apple-system,"PingFang SC","Microsoft YaHei","Apple SD Gothic Neo","Malgun Gothic",system-ui,sans-serif}
+html[data-lang="ko"]{--display:"Archivo","Noto Sans KR",system-ui,-apple-system,"Apple SD Gothic Neo","Malgun Gothic","PingFang SC","Microsoft YaHei",sans-serif;--body-ko:"Noto Sans KR",-apple-system,"Apple SD Gothic Neo","Malgun Gothic","PingFang SC","Microsoft YaHei",system-ui,sans-serif;--body:var(--body-ko)}
 /* footer labels: full-strength muted color for readable contrast */
 .biz dt{opacity:1}
 .biz dd{color:#b4bcb7}
