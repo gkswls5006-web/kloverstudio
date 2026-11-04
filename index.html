@@ -1070,6 +1070,8 @@ if(!reduce&&"IntersectionObserver" in window){
   const loc=gl.getAttribLocation(pr,"a");gl.enableVertexAttribArray(loc);gl.vertexAttribPointer(loc,2,gl.FLOAT,false,0,0);
   const U={};["R","T","P","A","M"].forEach(k=>U[k]=gl.getUniformLocation(pr,k));
   const RES=.6;
+  let soft=false;try{const di=gl.getExtension("WEBGL_debug_renderer_info");const rn=di?String(gl.getParameter(di.UNMASKED_RENDERER_WEBGL)):"";soft=/SwiftShader|llvmpipe|softpipe|Software|Basic Render/i.test(rn)}catch(e){}
+  const still=reduce||soft;
   function size(){cv.width=Math.max(2,Math.round(pin.clientWidth*RES));cv.height=Math.max(2,Math.round(pin.clientHeight*RES));gl.viewport(0,0,cv.width,cv.height)}
   let mx=0,my=0,tx=0,ty=0;
   addEventListener("pointermove",e=>{tx=e.clientX/innerWidth-.5;ty=.5-e.clientY/innerHeight},{passive:true});
@@ -1086,10 +1088,10 @@ if(!reduce&&"IntersectionObserver" in window){
   let raf=0,on=false;
   function loop(ms){const a=frame(ms);const vis=!$("home").hidden&&$("intro").getBoundingClientRect().bottom>0&&a>0.001;
     if(vis&&!document.hidden){raf=requestAnimationFrame(loop)}else on=false}
-  function wake(){if(reduce||on)return;on=true;raf=requestAnimationFrame(loop)}
+  function wake(){if(still||on)return;on=true;raf=requestAnimationFrame(loop)}
   size();
-  if(reduce)frame(4000);else wake();
-  addEventListener("resize",()=>{size();reduce?frame(4000):wake()});
+  if(still)frame(4000);else wake();
+  addEventListener("resize",()=>{size();still?frame(4000):wake()});
   addEventListener("scroll",wake,{passive:true});
   addEventListener("hashchange",()=>setTimeout(()=>{size();wake()},60));
   document.addEventListener("visibilitychange",wake);
