@@ -419,6 +419,9 @@ section .revs::-webkit-scrollbar{display:none}
 
 @media(prefers-reduced-motion:reduce){.track,.reel-track{animation:none}html{scroll-behavior:auto}.card .ph img{transition:none}}
 
+/* per-language font stacks: each page downloads only its own CJK webfont; stray characters of the other script use system fonts */
+html[data-lang="zh"]{--display:"Archivo","Noto Sans SC",system-ui,-apple-system,"PingFang SC","Microsoft YaHei","Apple SD Gothic Neo","Malgun Gothic",sans-serif;--body:"Noto Sans SC",-apple-system,"PingFang SC","Microsoft YaHei","Apple SD Gothic Neo","Malgun Gothic",system-ui,sans-serif}
+html[data-lang="ko"]{--display:"Archivo","Noto Sans KR",system-ui,-apple-system,"Apple SD Gothic Neo","Malgun Gothic","PingFang SC","Microsoft YaHei",sans-serif;--body-ko:"Noto Sans KR",-apple-system,"Apple SD Gothic Neo","Malgun Gothic","PingFang SC","Microsoft YaHei",system-ui,sans-serif;--body:var(--body-ko)}
 /* footer labels: full-strength muted color for readable contrast */
 .biz dt{opacity:1}
 .biz dd{color:#b4bcb7}
@@ -482,8 +485,8 @@ section .revs::-webkit-scrollbar{display:none}
       <p class="src">이 상품은 현재 쿠팡에서 판매 중이며, “INUF 맥북 반사방지 필름”로 검색하면 확인할 수 있습니다.</p>
     </section>
     <div class="sheet"><div class="pagecol" style="--pw:478px">
-      <img src="/assets/p-macfilm-1.jpg" width="478" height="2400" alt="INUF 맥북 반사방지 보호필름 상세페이지 (1/14)">
-      <img src="/assets/p-macfilm-2.jpg" width="478" height="2400" alt="INUF 맥북 반사방지 보호필름 상세페이지 (2/14)">
+      <img src="/assets/p-macfilm-1.jpg" width="478" height="2400" fetchpriority="high" alt="INUF 맥북 반사방지 보호필름 상세페이지 (1/14)">
+      <img src="/assets/p-macfilm-2.jpg" width="478" height="2400" loading="lazy" alt="INUF 맥북 반사방지 보호필름 상세페이지 (2/14)">
       <img src="/assets/p-macfilm-3.jpg" width="478" height="2400" loading="lazy" alt="INUF 맥북 반사방지 보호필름 상세페이지 (3/14)">
       <img src="/assets/p-macfilm-4.jpg" width="478" height="2400" loading="lazy" alt="INUF 맥북 반사방지 보호필름 상세페이지 (4/14)">
       <img src="/assets/p-macfilm-5.jpg" width="478" height="2400" loading="lazy" alt="INUF 맥북 반사방지 보호필름 상세페이지 (5/14)">
