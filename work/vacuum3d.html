@@ -419,6 +419,9 @@ section .revs::-webkit-scrollbar{display:none}
 
 @media(prefers-reduced-motion:reduce){.track,.reel-track{animation:none}html{scroll-behavior:auto}.card .ph img{transition:none}}
 
+/* per-language font stacks: each page downloads only its own CJK webfont; stray characters of the other script use system fonts */
+html[data-lang="zh"]{--display:"Archivo","Noto Sans SC",system-ui,-apple-system,"PingFang SC","Microsoft YaHei","Apple SD Gothic Neo","Malgun Gothic",sans-serif;--body:"Noto Sans SC",-apple-system,"PingFang SC","Microsoft YaHei","Apple SD Gothic Neo","Malgun Gothic",system-ui,sans-serif}
+html[data-lang="ko"]{--display:"Archivo","Noto Sans KR",system-ui,-apple-system,"Apple SD Gothic Neo","Malgun Gothic","PingFang SC","Microsoft YaHei",sans-serif;--body-ko:"Noto Sans KR",-apple-system,"Apple SD Gothic Neo","Malgun Gothic","PingFang SC","Microsoft YaHei",system-ui,sans-serif;--body:var(--body-ko)}
 /* footer labels: full-strength muted color for readable contrast */
 .biz dt{opacity:1}
 .biz dd{color:#b4bcb7}
@@ -479,8 +482,8 @@ section .revs::-webkit-scrollbar{display:none}
       <p class="src">该商品目前在 Coupang（酷澎）在售，可搜索「RWRKLP 3D 입체 압축백」查看。</p>
     </section>
     <div class="sheet"><div class="pagecol" style="--pw:720px">
-      <img src="/assets/p-vacuum3d-1.jpg" srcset="/assets/p-vacuum3d-1-480.jpg 480w, /assets/p-vacuum3d-1.jpg 780w" sizes="(max-width:784px) calc(100vw - 32px), 720px" width="780" height="2400" alt="RWRKLP 3D立体压缩袋 韩语详情页（第 1/11 部分）">
-      <img src="/assets/p-vacuum3d-2.jpg" srcset="/assets/p-vacuum3d-2-480.jpg 480w, /assets/p-vacuum3d-2.jpg 780w" sizes="(max-width:784px) calc(100vw - 32px), 720px" width="780" height="2400" alt="RWRKLP 3D立体压缩袋 韩语详情页（第 2/11 部分）">
+      <img src="/assets/p-vacuum3d-1.jpg" srcset="/assets/p-vacuum3d-1-480.jpg 480w, /assets/p-vacuum3d-1.jpg 780w" sizes="(max-width:784px) calc(100vw - 32px), 720px" width="780" height="2400" fetchpriority="high" alt="RWRKLP 3D立体压缩袋 韩语详情页（第 1/11 部分）">
+      <img src="/assets/p-vacuum3d-2.jpg" srcset="/assets/p-vacuum3d-2-480.jpg 480w, /assets/p-vacuum3d-2.jpg 780w" sizes="(max-width:784px) calc(100vw - 32px), 720px" width="780" height="2400" loading="lazy" alt="RWRKLP 3D立体压缩袋 韩语详情页（第 2/11 部分）">
       <img src="/assets/p-vacuum3d-3.jpg" srcset="/assets/p-vacuum3d-3-480.jpg 480w, /assets/p-vacuum3d-3.jpg 780w" sizes="(max-width:784px) calc(100vw - 32px), 720px" width="780" height="2400" loading="lazy" alt="RWRKLP 3D立体压缩袋 韩语详情页（第 3/11 部分）">
       <img src="/assets/p-vacuum3d-4.jpg" srcset="/assets/p-vacuum3d-4-480.jpg 480w, /assets/p-vacuum3d-4.jpg 780w" sizes="(max-width:784px) calc(100vw - 32px), 720px" width="780" height="2400" loading="lazy" alt="RWRKLP 3D立体压缩袋 韩语详情页（第 4/11 部分）">
       <img src="/assets/p-vacuum3d-5.jpg" srcset="/assets/p-vacuum3d-5-480.jpg 480w, /assets/p-vacuum3d-5.jpg 780w" sizes="(max-width:784px) calc(100vw - 32px), 720px" width="780" height="2400" loading="lazy" alt="RWRKLP 3D立体压缩袋 韩语详情页（第 5/11 部分）">
